@@ -11,13 +11,16 @@ export default function TabOneScreen({
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}>
         <Text style={styles.text}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+{
+  `昔年因读李白杜甫诗，长恨二人不相从。
+吾与东野生并世，如何复蹑二子踪。
+东野不得官，白首夸龙钟。
+韩子稍奸黠，自惭青蒿倚长松。
+低头拜东野，原得终始如駏蛩。
+东野不回头，有如寸筳撞巨钟。
+吾愿身为云，东野变为龙。
+四方上下逐东野，虽有离别无由逢？`
+}
         </Text>
       </ScrollView>
     </SafeAreaView>
@@ -33,6 +36,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 20,
   },
   text: {
-    fontSize: 42,
+    paddingTop: 40,
+    fontSize: 18,
   },
 });
